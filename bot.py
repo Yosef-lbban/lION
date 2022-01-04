@@ -15,7 +15,7 @@ import threading, requests, time, random
 import redis
 import sched, time ,os
 
-R = redis.Redis(charset="utf-8", decode_responses=True)
+
 if not os.path.isdir('./files'):
     os.mkdir("./files")
     
